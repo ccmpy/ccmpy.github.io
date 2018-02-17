@@ -1956,7 +1956,7 @@ h1, .h1-like {
     font-size: 52.5%; } }
 
 .wrapper {
-  margin: 0 auto;
+  margin-bottom: 0px;
   padding: 30px 30px; }
   @media screen and (max-width: 543px) {
     .wrapper {
@@ -2480,6 +2480,8 @@ label > .label-body {
 */
 .footer-section {
   background-color: #F5F5F5;
+  height: 10px;
+  position: absolute;
   bottom: 0px;
   font-family: sans-serif; }
 
