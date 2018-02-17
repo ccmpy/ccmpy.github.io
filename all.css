@@ -2458,8 +2458,9 @@ label > .label-body {
   transition: opacity 250ms 1.5s ease-in; }
 
 .load-email-button-is-error {
+  transform: rotateX(180deg);
   background-color: #fff;
-  transition: background-color 300ms ease-in; }
+  transition: transform 300ms ease-in-out, background-color 300ms ease-in; }
 
 .load-email-button-is-error:after {
   opacity: 1;
@@ -2479,6 +2480,8 @@ label > .label-body {
 */
 .footer-section {
   background-color: #F5F5F5;
+  position: static;
+  bottom: 0px;
   font-family: sans-serif; }
 
 .footer-nav-item {
