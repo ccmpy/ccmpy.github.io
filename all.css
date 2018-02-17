@@ -2406,7 +2406,8 @@ label > .label-body {
 /* Button
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .load-email-button {
-  outline: none; }
+  outline: none; 
+  height: 40px; }
   @media (min-width: 992px) {
     .load-email-button {
       border-top-left-radius: 0px;
