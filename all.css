@@ -2412,8 +2412,8 @@ label > .label-body {
     .load-email-button {
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px; } }
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px; } }
 
 .load-email-button:before {
   content: '\00a0\00a0\00a0\00a0 Thank you';
