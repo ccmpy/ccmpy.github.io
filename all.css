@@ -1957,6 +1957,7 @@ h1, .h1-like {
 
 .wrapper {
   margin: 0 auto;
+  height: 90px;
   padding: 30px 30px; }
   @media screen and (max-width: 543px) {
     .wrapper {
@@ -2481,7 +2482,6 @@ label > .label-body {
 .footer-section {
   background-color: #F5F5F5;
   position: absolute;
-  height: 90px;
   right: 0;
   bottom: 0;
   left: 0;
