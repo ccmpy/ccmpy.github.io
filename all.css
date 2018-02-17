@@ -2480,6 +2480,7 @@ label > .label-body {
 */
 .footer-section {
   background-color: #F5F5F5;
+  position: static;
   bottom: 0px;
   font-family: sans-serif; }
 
