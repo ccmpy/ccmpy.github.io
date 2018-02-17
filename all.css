@@ -2419,7 +2419,6 @@ label > .label-body {
   content: '\00a0\00a0\00a0\00a0 Thank you';
   position: absolute;
   z-index: 500;
-  transform: rotateX(180deg);
   color: #fff;
   letter-spacing: 1px;
   opacity: 0;
@@ -2438,8 +2437,8 @@ label > .label-body {
   height: 100%;
   overflow: hidden;
   background-color: #0EBEFF;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
   transition: width 10ms 600ms ease-in-out, background-color 300ms ease-in, opacity 250ms 300ms ease-in; }
 
 .load-email-button-is-active {
@@ -2458,13 +2457,12 @@ label > .label-body {
   transition: opacity 250ms 1.5s ease-in; }
 
 .load-email-button-is-error {
-  transform: rotateX(180deg);
   background-color: #fff;
   transition: transform 300ms ease-in-out, background-color 300ms ease-in; }
 
 .load-email-button-is-error:after {
   opacity: 1;
-  background-color: #000;
+  background-color: #000028;
   width: 100%;
   transition: width 1s 0.5s ease-in-out, background-color 300ms 300ms ease-in, opacity 250ms 300ms ease-in; }
 
@@ -2480,6 +2478,7 @@ label > .label-body {
 */
 .footer-section {
   background-color: #F5F5F5;
+  position: bottom
   font-family: sans-serif; }
 
 .footer-nav-item {
