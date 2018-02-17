@@ -110,7 +110,7 @@ $contactForm.submit(
     var honeyPotValue = $('.load-email-enter-fake').val();
     if (honeyPotValue === '') {
       $.ajax({
-        url: 'https://formspree.io/' + FORMSPREE_EMAIL,
+        url: 'https://ccmpy.github.io/' + https://formspree.io/hello@alumna.us,
         method: 'POST',
         data: { email: emailValue },
         dataType: 'json',
