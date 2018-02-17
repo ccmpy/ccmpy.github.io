@@ -2220,6 +2220,52 @@ button.main-cta {
 @media only screen and (min-width: 1100px) {
   .faq-masonry {
     column-count: 3; } }
+/**
+*
+*
+* TWITTER SECTION
+*
+*/
+blockquote.twitter-tweet {
+  padding: 16px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  color: #555; }
+
+blockquote.twitter-tweet a[href^="https://twitter.com"] {
+  color: #555; }
+
+.twitter-tweet {
+  color: #555;
+  width: auto;
+  padding-bottom: 0; }
+
+.j-poster {
+  display: flex;
+  flex-direction: column; }
+
+.j-poster-header {
+  display: flex;
+  flex-direction: row; }
+
+.j-poster-img {
+  width: 30px;
+  height: 30px; }
+
+.j-poster-icon {
+  margin-left: auto; }
+
+.j-poster-name {
+  margin-left: 5px;
+  height: 30px;
+  font-weight: bold; }
+
+.j-poster-bird {
+  margin-left: auto; }
+
+.j-poster-footer {
+  margin-top: 10px; }
 
 /**
 *
@@ -2373,6 +2419,7 @@ label > .label-body {
   content: '\00a0\00a0\00a0\00a0 Thank you';
   position: absolute;
   z-index: 500;
+  transform: rotateX(180deg);
   color: #fff;
   letter-spacing: 1px;
   opacity: 0;
@@ -2412,11 +2459,11 @@ label > .label-body {
 
 .load-email-button-is-error {
   background-color: #fff;
-  transition: transform 300ms ease-in-out, background-color 300ms ease-in; }
+  transition: background-color 300ms ease-in; }
 
 .load-email-button-is-error:after {
   opacity: 1;
-  background-color: #000028;
+  background-color: #000;
   width: 100%;
   transition: width 1s 0.5s ease-in-out, background-color 300ms 300ms ease-in, opacity 250ms 300ms ease-in; }
 
@@ -2432,7 +2479,6 @@ label > .label-body {
 */
 .footer-section {
   background-color: #F5F5F5;
-  position: bottom
   font-family: sans-serif; }
 
 .footer-nav-item {
