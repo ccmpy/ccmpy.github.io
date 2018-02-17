@@ -1957,7 +1957,7 @@ h1, .h1-like {
 
 .wrapper {
   margin: 0 auto;
-  padding: 30px 30px; }
+  padding: 10px 10px; }
   @media screen and (max-width: 543px) {
     .wrapper {
       padding: 10px 10px; } }
@@ -2419,7 +2419,7 @@ label > .label-body {
   content: '\00a0\00a0\00a0\00a0 Thank you';
   position: absolute;
   z-index: 500;
-  transform: rotateX(180deg);
+  transform: rotateX(0deg);
   color: #fff;
   letter-spacing: 1px;
   opacity: 0;
@@ -2443,7 +2443,7 @@ label > .label-body {
   transition: width 10ms 600ms ease-in-out, background-color 300ms ease-in, opacity 250ms 300ms ease-in; }
 
 .load-email-button-is-active {
-  transform: rotateX(180deg);
+  transform: rotateX(0deg);
   background-color: #fff;
   transition: transform 300ms ease-in-out, background-color 300ms ease-in; }
 
@@ -2458,7 +2458,7 @@ label > .label-body {
   transition: opacity 250ms 1.5s ease-in; }
 
 .load-email-button-is-error {
-  transform: rotateX(180deg);
+  transform: rotateX(0deg);
   background-color: #fff;
   transition: transform 300ms ease-in-out, background-color 300ms ease-in; }
 
