@@ -100,7 +100,7 @@ $(document).ready(function(){
 */
 var $loadEmailButton = $('.load-email-button')[0];
 var $contactForm = $('#contact-form');
-var DEFAULT_TEXT_CONTENT = 'Join the party';
+var DEFAULT_TEXT_CONTENT = 'Send';
 
 $contactForm.submit(
   function (e) {
