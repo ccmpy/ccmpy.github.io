@@ -2463,7 +2463,7 @@ label > .label-body {
 
 .load-email-button-is-error:after {
   opacity: 1;
-  background-color: black;
+  background-color: #000;
   width: 100%;
   transition: width 1s 0.5s ease-in-out, background-color 300ms 300ms ease-in, opacity 250ms 300ms ease-in; }
 
