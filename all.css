@@ -2481,6 +2481,7 @@ label > .label-body {
 .footer-section {
   background-color: #F5F5F5;
   position: absolute;
+  height: 90;
   right: 0;
   bottom: 0;
   left: 0;
