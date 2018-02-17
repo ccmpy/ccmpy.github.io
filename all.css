@@ -2189,19 +2189,20 @@ label > .label-body {
 /* Button
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .load-email-button {
-  outline: none; }
+  outline: none; 
+  height: 40px; }
   @media (min-width: 992px) {
     .load-email-button {
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
-      border-top-right-radius: 3px;
-      border-bottom-right-radius: 3px; } }
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px; } }
 
 .load-email-button:before {
   content: '\00a0\00a0\00a0\00a0 Thank you';
   position: absolute;
   z-index: 500;
-  transform: rotateX(360deg);
+  transform: rotateX(180deg);
   color: #fff;
   letter-spacing: 1px;
   opacity: 0;
@@ -2220,12 +2221,12 @@ label > .label-body {
   height: 100%;
   overflow: hidden;
   background-color: #0EBEFF;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
   transition: width 10ms 600ms ease-in-out, background-color 300ms ease-in, opacity 250ms 300ms ease-in; }
 
 .load-email-button-is-active {
-  transform: rotateX(360deg);
+  transform: rotateX(180deg);
   background-color: #fff;
   transition: transform 300ms ease-in-out, background-color 300ms ease-in; }
 
@@ -2240,13 +2241,13 @@ label > .label-body {
   transition: opacity 250ms 1.5s ease-in; }
 
 .load-email-button-is-error {
-  transform: rotateX(360deg);
+  transform: rotateX(180deg);
   background-color: #fff;
   transition: transform 300ms ease-in-out, background-color 300ms ease-in; }
 
 .load-email-button-is-error:after {
   opacity: 1;
-  background-color: gray;
+  background-color: #000;
   width: 100%;
   transition: width 1s 0.5s ease-in-out, background-color 300ms 300ms ease-in, opacity 250ms 300ms ease-in; }
 
